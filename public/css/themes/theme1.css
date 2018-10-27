@@ -1,0 +1,124 @@
+
+/* STYLES FOR THEME ONE */
+
+div.timer-section {
+    display: flex;
+    border-radius: 7px;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: rgb(169, 0, 0);
+    width: 100%;
+    margin-bottom: 23px;
+    justify-content: stretch;
+    padding: 15px 30px;
+    -webkit-box-shadow: 0px 3px 15px -1px #715757;
+    box-shadow: 0px 3px 15px -1px #715757;
+}
+
+div.timer-days,
+div.timer-hours,
+div.timer-minutes,
+div.timer-seconds {
+    margin: 3px;
+    background-color: rgba(0, 0, 0, 0.61);
+    padding: 4px 32px;
+    text-align: center;
+    padding-top: 16px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 3px 15px -1px #715757;
+    box-shadow: 0px 3px 15px -1px #715757;
+}
+
+div.timer-body h1 {
+    font-size: 1.6em;
+    color: #FFF;
+    margin-bottom: -3px;
+    border-bottom: 1px solid #fff;
+}
+
+div.timer-body .cst-timer-description {
+    color: #fff1f1;
+    font-size: 0.75em;
+    font-style: italic;
+}
+
+div.timer-section h2,
+div.timer-section h4 {
+    color: #FFF;
+}
+
+div.timer-footer {}
+
+div.timer-footer h4 {
+    text-align: center;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (max-width: 600px) {
+    div.timer-section {
+        padding: 15px 8px;
+    }
+    div.timer-days,
+    div.timer-hours,
+    div.timer-minutes,
+    div.timer-seconds {
+        padding: 4px 14px;
+    }
+    div.timer-body h1 {
+        font-size: 1.4em;
+    }
+    div.timer-body .cst-timer-description {
+        color: #FFF;
+        font-size: 0.65em;
+    }
+    div.timer-footer h4 {
+        text-align: center;
+    }
+}
+
+
+
+/**/
+
+.fomo-product-image {
+    max-width: 48%;
+    height: auto;
+    margin-bottom: 8%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.fomo-product-image:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+div.fomo-product-section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+button.fomo-add-to-cart-button {
+    padding: 1px 25px;
+    background-color: #de7620;
+    border-radius: 3px;
+    font-size: 0.7em;
+    color: #fff;
+    -webkit-box-shadow: 0px 1px 3px -2px #000000;
+    box-shadow: 0px 1px 3px -2px #000000;
+}
+
+div.fomo-single-product {
+    text-align: center;
+}
+
+.fomo-percent-off {
+    color: #17c56e;
+    font-weight: bold;
+}
+
+.fomo-product-title {
+    text-align: center;
+}

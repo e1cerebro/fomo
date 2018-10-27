@@ -1,0 +1,70 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+/* FORM STYLING */
+
+form.fomo-form * {
+    display: block;
+    margin: 10px 0;
+}
+
+form.fomo-form input[type="number"],
+form.fomo-form select {
+    width: 100%;
+}
+
+form.fomo-form select.fomo-multi-select {
+    width: 100%;
+    min-height: 188px;
+}
+
+div.fomo-form-section {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    padding: 38px 20px;
+}
+
+div.fomo-settings-page {
+    margin: 57px 33px;
+    -webkit-box-shadow: 1px 0px 6px 2px #12382C;
+    box-shadow: 1px 0px 6px 2px #12382C;
+}
+
+.fomo-product-list {
+    width: 65%;
+}
+
+.fomo-form-body {
+    margin: 0 20px;
+    background-color: #ececec;
+    padding: 20px;
+    -webkit-box-shadow: 2px 1px 9px -1px #000000, 0px -1px 9px -4px #000000;
+    box-shadow: 2px 1px 9px -1px #000000, 0px -1px 9px -4px #000000;
+}
+
+.fomo-form-heading {
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+.fomo-delete-button,
+.fomo-edit-button {
+    color: #fff;
+    border: 0px;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.fomo-delete-button {
+    background-color: red;
+}
+
+.fomo-edit-button {
+    background-color: blue;
+}
